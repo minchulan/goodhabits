@@ -1,3 +1,16 @@
+## Overview
+
+Welcome to Drugsy, a Rx Drug finder site. 
+
+## Core Deliverables
+
+As a user:
+
+1. When the app starts, I can see all Rx drugs.
+2. I can add a new drug to the page by submitting the form.
+3. I can mark a drug as "not available".
+4. I can search for Rx drugs by their name and see a filtered list of drugs.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

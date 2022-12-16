@@ -1,0 +1,46 @@
+{
+  "drugs": [
+    {
+      "name": "Atorvastatin",
+      "brand": "Lipitor",
+      "form": "tablet",
+      "strength": 10,
+      "image": "https://www.drugs.com/images/pills/nlm/604290324.jpg"
+    },
+    {
+      "name": "Alprazolam",
+      "brand": "Xanax",
+      "form": "tablet",
+      "strength": 1,
+      "image": "https://www.drugs.com/images/pills/mtm/Alprazolam%201%20mg-ACT.jpg"
+    },
+    {
+      "name": "Fluoxetine",
+      "brand": "Prozac",
+      "form": "capsule",
+      "strength": 20,
+      "image": "https://www.drugs.com/images/pills/nlm/009045785.jpg"
+    },
+    {
+      "name": "Sertraline",
+      "brand": "Zoloft",
+      "form": "tablet",
+      "strength": 50,
+      "image": "https://www.drugs.com/images/pills/nlm/167140612.jpg"
+    },
+    {
+      "name": "Cephalexin",
+      "brand": "Keflex",
+      "form": "capsule",
+      "strength": 500,
+      "image": "https://www.drugs.com/images/pills/fio/ADC01130.JPG"
+    },
+    {
+      "name": "Spironolactone",
+      "brand": "Aldactone",
+      "form": "tablet",
+      "strength": 25,
+      "image": "https://www.drugs.com/images/pills/mtm/Spironolactone%2025%20mg-AMN.jpg"
+    }
+  ]
+}
