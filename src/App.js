@@ -40,7 +40,7 @@ function App() {
         <Route path="/search">
           <Search />
         </Route>
-        <Route path="/new-drug">
+        <Route path="/drugs/new">
           <DrugForm />
         </Route>
 
