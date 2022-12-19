@@ -1,9 +1,13 @@
 import React from 'react';
-import DrugCard from './DrugCard';
+import DrugCard from './DrugCard'
 
-const DrugList = () => {
+const DrugList = ({drugs, onDeleteDrug}) => {
+    const drugsToDisplay = drugs.map((drug) => (
+        <DrugCard key={drug.id} drug={drug} onDeleteDrug={onDeleteDrug} />
+    ))
+    
     return (
-        <ul className="drugs">{ /* render DrugCards component in here*/}</ul>
+        <ul className="drug-list">{drugsToDisplay}</ul>
     );
 }
  
