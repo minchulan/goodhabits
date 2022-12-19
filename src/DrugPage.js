@@ -3,7 +3,7 @@ import DrugForm from './DrugForm';
 import DrugList from './DrugList';
 import Search from './Search';
 
-const DrugPage = ({ drugs, onAddNewDrug, onSearchChange, onDeleteDrug }) => {
+const DrugPage = ({ drugs, onAddNewDrug, onSearchChange, onDeleteDrug, onFavoriteDrug}) => {
   const [search, setSearch] = useState("");
 
   const displayedDrugs = drugs.filter((drug) =>
@@ -17,6 +17,7 @@ const DrugPage = ({ drugs, onAddNewDrug, onSearchChange, onDeleteDrug }) => {
       <DrugList
         drugs={displayedDrugs}
         onDeleteDrug={onDeleteDrug}
+        onFavoriteDrug={onFavoriteDrug}
       />
     </main>
   );

@@ -170,6 +170,15 @@
       "form": "tablet",
       "isFavorite": false,
       "id": 19
+    },
+    {
+      "name": "",
+      "brand": "",
+      "strength": 0,
+      "image": "",
+      "form": "",
+      "isFavorite": false,
+      "id": 20
     }
   ]
 }

@@ -4,7 +4,6 @@ import DrugPage from './DrugPage';
 
 function App() {
   const [drugs, setDrugs] = useState([]);
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     fetch("http://localhost:3001/drugs")
