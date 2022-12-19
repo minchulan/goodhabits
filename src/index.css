@@ -1,25 +1,11 @@
 :root {
-  --green: rgb(39, 99, 189);
+  --green: rgb(101, 46, 99);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-main.dark-mode {
-  --bg-color-1: rgb(0, 0, 0);
-  --bg-color-2: rgba(50, 50, 50);
-  --bg-color-3: rgba(75, 75, 75);
-  --main-font-color: rgb(200, 200, 200);
-  --alt-font-color: rgb(255, 255, 255);
-  --theme-primary: rgba(91, 13, 232, 1);
-  --theme-primary-gradient: linear-gradient(
-    90deg,
-    rgba(91, 13, 232, 1) 0%,
-    rgba(121, 101, 220, 1) 100%
-  );
 }
 
 body {
@@ -55,14 +41,14 @@ header h1 {
 }
 
 header h2 {
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
 }
 
 .logo {
-  font-size: 1.25em;
+  font-size: 1.5em;
   padding-left: 0.5rem;
   color: transparent;
   text-shadow: 0 0 0 var(--green);
@@ -75,7 +61,7 @@ main {
 .drug-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(15, 96, 128, 0.5);
+  background-color: rgb(99, 112, 174);
 }
 
 .drug-form form {
@@ -101,13 +87,14 @@ main {
 label {
   font-weight: bold;
   display: block;
+  font-size: larger;
 }
 
 input {
   padding: 0.25rem;
   border: none;
   font-family: inherit;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border-bottom: 2px solid gray;
   transition: all 0.2s;
   width: 100%;
@@ -124,15 +111,26 @@ input:focus {
 
 .card {
   margin: 1rem;
+  display:grid;
 }
 
 .card img {
-  width: 100%;
+  width: 150%;
 }
 
 .card button {
   margin-top: 0.5rem;
 }
+
+.emoji-button.delete {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  text-shadow: #5e1a5c;
+  cursor: pointer;
+}
+
 
 @media (min-width: 768px) {
   .cards {
@@ -142,6 +140,7 @@ input:focus {
 
   .card {
     width: calc(33% - 2rem);
+    font-size: larger;
   }
 }
 
@@ -155,45 +154,4 @@ input:focus {
   .card {
     width: calc(20% - 2rem);
   }
-}
-
-
-/* Header   */
-.toggle-switch {
-  margin: 0.5rem;
-}
-
-.toggle-switch input {
-  display: none;
-}
-
-.toggle-switch label {
-  position: relative;
-  display: inline-block;
-  width: 40px;
-  height: 20px;
-  background-color: var(--bg-color-1);
-  border-radius: 20px;
-}
-
-.toggle-switch label::after {
-  content: "";
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  line-height: 20px;
-  padding-left: 2px;
-  border-radius: 50%;
-  background-color: var(--main-font-color);
-  top: 1px;
-  left: 1px;
-  transition: all 0.3s;
-}
-
-.toggle-switch input:checked + label::after {
-  left: 20px;
-}
-
-.toggle-switch input:checked + label {
-  background-color: var(--bg-color-1);
 }

@@ -161,6 +161,60 @@
       "form": "tablet",
       "isFavorite": false,
       "id": 18
+    },
+    {
+      "name": "Clonazepam",
+      "brand": "Klonopin",
+      "strength": "0.5",
+      "image": "https://www.drugs.com/images/pills/fio/ACC01360.JPG",
+      "form": "tablet",
+      "isFavorite": false,
+      "id": 19
+    },
+    {
+      "name": "Sumatriptan",
+      "brand": "Imitrex",
+      "strength": "100",
+      "image": "https://www.drugs.com/images/pills/nlm/55111-0293-09_NLMIMAGE10_8443422A.jpg",
+      "form": "tablet",
+      "isFavorite": false,
+      "id": 20
+    },
+    {
+      "name": "Levetiracetam",
+      "brand": "Keppra",
+      "strength": "500",
+      "image": "https://www.drugs.com/images/pills/mtm/Levetiracetam%20500%20mg-TEV.jpg",
+      "form": "tablet",
+      "isFavorite": false,
+      "id": 21
+    },
+    {
+      "name": "Nitrofurantoin",
+      "brand": "Macrobid",
+      "strength": "100",
+      "image": "https://www.drugs.com/images/pills/nlm/510790585.jpg",
+      "form": "capsule",
+      "isFavorite": false,
+      "id": 22
+    },
+    {
+      "name": "Lithium ",
+      "brand": "Carbonate",
+      "strength": 0,
+      "image": "https://www.drugs.com/images/pills/nlm/000548526.jpg",
+      "form": "capsule",
+      "isFavorite": false,
+      "id": 23
+    },
+    {
+      "name": "Sitagliptan",
+      "brand": "Januvia",
+      "strength": "50",
+      "image": "https://www.drugs.com/images/pills/nlm/200000021.jpg",
+      "form": "tablet",
+      "isFavorite": false,
+      "id": 24
     }
   ]
 }

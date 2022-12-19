@@ -69,6 +69,7 @@ const DrugForm = ({ onAddNewDrug }) => {
             onChange={handleChange}
             value={formData.number}
             type="number"
+            step="0.01"
             name="strength"
             placeholder="Strength"
             className="input-text"
