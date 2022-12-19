@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 
+const initialState = {
+  name: "",
+  brand: "",
+  strength: "",
+  image: "",
+  form: "",
+};
+
 const DrugForm = ({ onAddNewDrug }) => {
-    const [formData, setFormData] = useState({
-        name: "",
-        brand: "",
-        strength: 0,
-        image: "",
-        form: ""
-    })
+    const [formData, setFormData] = useState(initialState)
 
     function handleChange(e) {
         setFormData({
@@ -36,13 +38,7 @@ const DrugForm = ({ onAddNewDrug }) => {
           onAddNewDrug(drug);
         });
         
-      setFormData({
-        name: "", 
-        brand: "",              
-        strength: 0,            
-        image: "",            
-        form: "",           
-      });
+      setFormData(initialState);
     }
 
     return (
@@ -67,7 +63,7 @@ const DrugForm = ({ onAddNewDrug }) => {
           />
           <input
             onChange={handleChange}
-            value={formData.number}
+            value={formData.strength}
             type="number"
             step="0.01"
             name="strength"
@@ -76,7 +72,7 @@ const DrugForm = ({ onAddNewDrug }) => {
           />
           <input
             onChange={handleChange}
-            value={formData.number}
+            value={formData.image}
             type="text"
             name="image"
             placeholder="Image URL"

@@ -1,15 +1,45 @@
-## Overview
+## Good Habits
 
-Welcome to Drugsy, a Rx Drug finder site. 
+Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication. For my phase 2 project I hoped to build something that pertained to my career as a pharmacist. After several low-fidelity wireframe designs and much consideration, I came to the realization that a 'prescription-drug-finder-app' would be the most attainable for me as a student developer. I hope to build upon this project with additional integrations and functionality that I could use in a pharmacy setting in the future.
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## 🔗 Links
+
+[![my_portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/minchulan)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minchulan/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/itsminchul)
+
+## Lessons Learned
+
+In Phase 2, I learned the fundamentals of the ReactJS language, specifically Components and Props, State & Events, Information Flow, React Forms, Component Lifecycle & React Router. I met the learning objectives which were to design a React component hierarchy based on a wireframe, create components that interact with an API, and incorporate client-side routing into a single-page application in React.
+
+
+## Installation
+
+To install, just fork and clone this repository. Once you cloned it in your terminal, make sure you `cd` into the correct folder.
+
+## Roadmap
+
+- Additional browser support
+- Add more integrations
+
 
 ## Core Deliverables
 
 As a user:
 
-1. When the app starts, I can see all Rx drugs.
-2. I can add a new drug to the page by submitting the form.
-3. I can mark a drug as "not available".
-4. I can search for Rx drugs by their name and see a filtered list of drugs.
+1. When the app starts on page load, dynamically render a list of Rx drugs.
+2. Add a new drug to the page by submitting the form.
+3. Delete a drug by clicking on the delete button, or trashcan icon.
+4. Search for drugs by Rx drug name and see a filtered list of drugs on the page.
+
+## Example
+
+The below screenshot demonstrates the working functionality of the app.
+
+<img width="1669" alt="Deliverables" src="https://user-images.githubusercontent.com/108310591/208354289-ec8018da-77f2-4017-a859-c47ad3c16af5.png>
+
 
 # Getting Started with Create React App
 
