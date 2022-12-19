@@ -12,3 +12,4 @@ root.render(
   </BrowserRouter>
 );
 
+// ReactDOM.render(<App />, document.getElementById("root"));

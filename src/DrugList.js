@@ -1,5 +1,6 @@
 import React from "react";
 import DrugCard from "./DrugCard";
+import { Link } from 'react-router-dom';
 
 const DrugList = ({ drugs, onDeleteDrug }) => {
   const drugsToDisplay = drugs.map((drug) => (

@@ -4,7 +4,7 @@ const DrugCard = ({ drug, onDeleteDrug }) => {
   const { name, brand, strength, image, form, id } = drug;
 
   const handleDeleteClick = () => {
-    fetch(`htt://localhost:3001/drugs/${id}`, {
+    fetch(`http://localhost:3001/drugs/${id}`, {
       method: "DELETE",
     });
     onDeleteDrug(id);

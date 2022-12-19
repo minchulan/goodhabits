@@ -4,6 +4,7 @@ import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Search from "./Search";
 
 function App() {
   const [drugs, setDrugs] = useState([]);
@@ -28,17 +29,15 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <Header />
-        </Route>
-        <Route>
           <DrugPage
             drugs={drugs}
             onAddNewDrug={handleAddNewDrug}
             onDeleteDrug={handleDeleteDrug}
           />
         </Route>
-        <Route>
-          <Footer />
+
+        <Route path="*">
+          <h1>404 not found</h1>
         </Route>
       </Switch>
     </main>
