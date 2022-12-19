@@ -40,8 +40,14 @@ As a user:
 
 The below screenshot demonstrates the working functionality of the app.
 ![Example](https://user-images.githubusercontent.com/108310591/208517130-e1370830-c764-4a11-abae-0bef694830a8.png)
+
+/search page 
 ![search](https://user-images.githubusercontent.com/108310591/208520248-98d6048f-8545-4c55-b068-093f0f414042.png)
+
+/new-drug page 
 ![new drug](https://user-images.githubusercontent.com/108310591/208520267-5ea78cad-0c92-495f-a7f8-401894c5476e.png)
+
+404 not found
 ![404 page not found](https://user-images.githubusercontent.com/108310591/208520290-2e67dc20-7d66-48ab-a628-e2d6da2efa84.png)
 
 
