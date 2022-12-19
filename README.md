@@ -37,8 +37,8 @@ As a user:
 ## Example
 
 The below screenshot demonstrates the working functionality of the app.
+![Deliverables](https://user-images.githubusercontent.com/108310591/208354289-ec8018da-77f2-4017-a859-c47ad3c16af5.png)
 
-<img width="1669" alt="Deliverables" src="https://user-images.githubusercontent.com/108310591/208354289-ec8018da-77f2-4017-a859-c47ad3c16af5.png>"
 
 
 # Getting Started with Create React App
