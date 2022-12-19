@@ -4,6 +4,7 @@ import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
 import Search from "./Search";
+import DrugForm from "./DrugForm";
 
 function App() {
   const [drugs, setDrugs] = useState([]);
@@ -35,9 +36,13 @@ function App() {
             onDeleteDrug={handleDeleteDrug}
           />
         </Route>
-        
-        // Search <Route></Route>
-        // New Drug <Route></Route>
+
+        <Route path="/search">
+          <Search />
+        </Route>
+        <Route path="/new-drug">
+          <DrugForm />
+        </Route>
 
         <Route path="*">
           <h1>404 not found</h1>

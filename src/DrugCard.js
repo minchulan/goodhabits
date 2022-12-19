@@ -17,11 +17,7 @@ const DrugCard = ({ drug, onDeleteDrug }) => {
         {name} ({brand}) {strength}mg {form}
       </h4>
       <div className="details">
-        {/* {true ? (
-          <button onClick={handleFavoriteClick} className="emoji-button favorite active">★</button>
-        ) : (
-            <button onClick={handleFavoriteClick} className="emoji-button favorite">☆</button>
-        )} */}
+        <button className="emoji-button favorite active">★</button>
         <button onClick={handleDeleteClick} className="emoji-button delete">
           🗑
         </button>
