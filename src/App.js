@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { Switch, Route } from 'react-router-dom';
 import Header from "./Header";
 import DrugPage from "./DrugPage";
+import NavBar from "./NavBar";
 
 function App() {
   const [drugs, setDrugs] = useState([]);
@@ -22,7 +24,9 @@ function App() {
 
   return (
     <main className="App">
+      
       <Header />
+      <NavBar />
       <DrugPage
         drugs={drugs}
         onAddNewDrug={handleAddNewDrug}

@@ -2,7 +2,11 @@ import React from 'react';
 
 const NavBar = () => {
     return (
-        <div>"Nav!</div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/search">Search</a>
+        <a href="/new">New Drug</a>
+      </nav>
     );
 }
  
