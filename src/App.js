@@ -21,13 +21,9 @@ function App() {
     setDrugs([...drugs, drug]);
   }
 
-  // function handleToggleDarkMode(isDarkMode) {
-  //   setIsDarkMode(isDarkMode)
-  // }
-
   return (
-    <main className={isDarkMode ? "dark-mode" : "light-mode"}>
-      <Header isDarkMode={isDarkMode} onToggleDarkMode={setIsDarkMode} />
+    <main className="App">
+      <Header />
       <DrugPage drugs={drugs} onAddNewDrug={handleAddNewDrug} onDeleteDrug={handleDeleteDrug} />
     </main>
   );

@@ -4,11 +4,11 @@ import DrugList from './DrugList';
 import Search from './Search';
 
 const DrugPage = ({ drugs, onAddNewDrug, onSearchChange, onDeleteDrug }) => {
-    const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("");
 
-      const displayedDrugs = drugs.filter((drug) =>
-        drug.name.toLowerCase().includes(search.toLowerCase())
-      );
+  const displayedDrugs = drugs.filter((drug) =>
+    drug.name.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
     <main>
