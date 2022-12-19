@@ -24,14 +24,25 @@ function App() {
 
   return (
     <main className="App">
-      
-      <Header />
-      <NavBar />
-      <DrugPage
-        drugs={drugs}
-        onAddNewDrug={handleAddNewDrug}
-        onDeleteDrug={handleDeleteDrug}
-      />
+      <Switch>
+        <Route>
+          <Header />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route>
+          <NavBar />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route>
+          <DrugPage
+            drugs={drugs}
+            onAddNewDrug={handleAddNewDrug}
+            onDeleteDrug={handleDeleteDrug}
+          />
+        </Route>
+      </Switch>
     </main>
   );
 }
