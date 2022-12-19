@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 function App() {
   const [drugs, setDrugs] = useState([]);
@@ -24,23 +25,20 @@ function App() {
 
   return (
     <main className="App">
+      <NavBar />
       <Switch>
-        <Route>
+        <Route exact path="/">
           <Header />
         </Route>
-      </Switch>
-      <Switch>
-        <Route>
-          <NavBar />
-        </Route>
-      </Switch>
-      <Switch>
         <Route>
           <DrugPage
             drugs={drugs}
             onAddNewDrug={handleAddNewDrug}
             onDeleteDrug={handleDeleteDrug}
           />
+        </Route>
+        <Route>
+          <Footer />
         </Route>
       </Switch>
     </main>
