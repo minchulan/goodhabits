@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
-import Footer from "./Footer";
 import Search from "./Search";
 
 function App() {
@@ -27,6 +26,7 @@ function App() {
   return (
     <main className="App">
       <NavBar />
+      <Header />
       <Switch>
         <Route exact path="/">
           <DrugPage
@@ -35,6 +35,9 @@ function App() {
             onDeleteDrug={handleDeleteDrug}
           />
         </Route>
+        
+        // Search <Route></Route>
+        // New Drug <Route></Route>
 
         <Route path="*">
           <h1>404 not found</h1>
