@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import Header from './Header'
-import DrugPage from './DrugPage';
+import React, { useEffect, useState } from "react";
+import Header from "./Header";
+import DrugPage from "./DrugPage";
 
 function App() {
   const [drugs, setDrugs] = useState([]);
@@ -23,7 +23,11 @@ function App() {
   return (
     <main className="App">
       <Header />
-      <DrugPage drugs={drugs} onAddNewDrug={handleAddNewDrug} onDeleteDrug={handleDeleteDrug} />
+      <DrugPage
+        drugs={drugs}
+        onAddNewDrug={handleAddNewDrug}
+        onDeleteDrug={handleDeleteDrug}
+      />
     </main>
   );
 }
