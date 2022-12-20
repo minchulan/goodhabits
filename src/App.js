@@ -15,13 +15,15 @@ function App() {
       .then((drugs) => setDrugs(drugs));
   }, []);
 
+  if (!drugs) return <h2>Loading...</h2>
+
   const handleDeleteDrug = (id) => {
     const updatedDrugs = drugs.filter((drug) => drug.id !== id);
     setDrugs(updatedDrugs);
   };
 
   function handleAddNewDrug(drug) {
-    setDrugs([...drugs, drug]);
+    setDrugs([drug, ...drugs]);
   }
 
   return (
@@ -32,6 +34,7 @@ function App() {
         <Route exact path="/">
           <DrugPage
             drugs={drugs}
+            setDrugs={setDrugs}
             onAddNewDrug={handleAddNewDrug}
             onDeleteDrug={handleDeleteDrug}
           />

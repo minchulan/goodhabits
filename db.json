@@ -1,24 +1,6 @@
 {
   "drugs": [
     {
-      "id": 1,
-      "name": "Atorvastatin",
-      "brand": "Lipitor",
-      "form": "tablet",
-      "strength": 10,
-      "image": "https://www.drugs.com/images/pills/nlm/604290324.jpg",
-      "isFavorite": false
-    },
-    {
-      "id": 2,
-      "name": "Alprazolam",
-      "brand": "Xanax",
-      "form": "tablet",
-      "strength": 1,
-      "image": "https://www.drugs.com/images/pills/mtm/Alprazolam%201%20mg-ACT.jpg",
-      "isFavorite": false
-    },
-    {
       "id": 3,
       "name": "Fluoxetine",
       "brand": "Prozac",
@@ -134,15 +116,6 @@
       "strength": 100,
       "image": "https://www.drugs.com/images/pills/nlm/003100271.jpg",
       "isFavorite": false
-    },
-    {
-      "name": "Minchul An",
-      "brand": "test",
-      "strength": "10",
-      "image": "https://toystory.disney.com/sheriff-woody",
-      "form": "tab",
-      "isFavorite": false,
-      "id": 16
     },
     {
       "name": "Oxycodone",
