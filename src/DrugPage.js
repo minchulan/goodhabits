@@ -10,10 +10,6 @@ const DrugPage = ({ drugs, onAddNewDrug, onDeleteDrug }) => {
     drug.name.toLowerCase().includes(search.toLowerCase())
   )
 
-  // const displayedDrugs = drugs.filter((drug) => {
-  //   return drug.name.toLowerCase().includes(search.toLowerCase())
-  // })
-
   return (
     <main>
       <DrugForm onAddNewDrug={onAddNewDrug} />
