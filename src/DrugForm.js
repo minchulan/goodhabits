@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useHistory } from 'react-router-dom';
 
 const initialState = {
   name: "",
@@ -12,7 +11,6 @@ const initialState = {
 const DrugForm = ({ onAddNewDrug }) => {
   const [formData, setFormData] = useState(initialState);
 
-  const history = useHistory();
 
   function handleChange(e) {
     setFormData({
@@ -39,9 +37,8 @@ const DrugForm = ({ onAddNewDrug }) => {
       .then((r) => r.json())
       .then((drug) => {
         onAddNewDrug(drug);
-        history.push('/')
-        // ^after form is submitted, redirect to homepage
-      })
+      });
+    
     setFormData(initialState);
   }
 
@@ -87,7 +84,9 @@ const DrugForm = ({ onAddNewDrug }) => {
           className="input-text"
         />
         <select required value={formData.form} onChange={handleChange}>
-          <option disabled value="none">Choose a drug form</option>
+          <option disabled value="none">
+            Choose a drug form
+          </option>
           <option value="tablet">tablet</option>
           <option value="capsule">capsule</option>
         </select>

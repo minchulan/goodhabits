@@ -172,15 +172,6 @@
       "id": 22
     },
     {
-      "name": "Lithium ",
-      "brand": "Carbonate",
-      "strength": 0,
-      "image": "https://www.drugs.com/images/pills/nlm/000548526.jpg",
-      "form": "capsule",
-      "isFavorite": false,
-      "id": 23
-    },
-    {
       "name": "Sitagliptan",
       "brand": "Januvia",
       "strength": "50",
@@ -188,6 +179,15 @@
       "form": "tablet",
       "isFavorite": false,
       "id": 24
+    },
+    {
+      "name": "Minchul An",
+      "brand": "test",
+      "strength": "0.01",
+      "image": "test",
+      "form": "",
+      "isFavorite": false,
+      "id": 25
     }
   ]
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
@@ -15,7 +15,7 @@ const App = () => {
       .then((drugs) => setDrugs(drugs));
   }, []);
 
-  if (!drugs) return <h2>Loading...</h2>
+  if (!drugs) return <h2>Loading...</h2>;
 
   const handleDeleteDrug = (id) => {
     const updatedDrugs = drugs.filter((drug) => drug.id !== id);
@@ -53,6 +53,6 @@ const App = () => {
       </div>
     </main>
   );
-}
+};
 
 export default App;

@@ -2,7 +2,7 @@ import React from "react";
 
 const DrugCard = ({ drug, onDeleteDrug }) => {
   const { name, brand, strength, image, form, id } = drug;
-  
+
   // useEffect(() => {
   //   fetch(`http://localhost:3001/drugs/${id}`)
   //     .then(r => r.json())
