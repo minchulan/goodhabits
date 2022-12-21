@@ -12,14 +12,14 @@ const DrugForm = ({ onAddNewDrug }) => {
   const [formData, setFormData] = useState(initialState);
 
 
-  function handleChange(e) {
+  const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   }
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     const drug = {

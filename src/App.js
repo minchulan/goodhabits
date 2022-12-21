@@ -22,7 +22,7 @@ const App = () => {
     setDrugs(updatedDrugs);
   };
 
-  function handleAddNewDrug(drug) {
+  const handleAddNewDrug = (drug) => {
     setDrugs([drug, ...drugs]);
   }
 
