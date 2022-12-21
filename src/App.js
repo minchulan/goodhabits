@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import DrugPage from "./DrugPage";
 import NavBar from "./NavBar";
 import Search from "./Search";
 import DrugForm from "./DrugForm";
 
-function App() {
+const App = () => {
   const [drugs, setDrugs] = useState([]);
 
   useEffect(() => {
@@ -30,27 +30,27 @@ function App() {
     <main className="App">
       <NavBar />
       <Header />
-      <Switch>
-        <Route exact path="/">
-          <DrugPage
-            drugs={drugs}
-            setDrugs={setDrugs}
-            onAddNewDrug={handleAddNewDrug}
-            onDeleteDrug={handleDeleteDrug}
-          />
-        </Route>
-
-        <Route path="/search">
-          <Search />
-        </Route>
-        <Route path="/drugs/new">
-          <DrugForm />
-        </Route>
-
-        <Route path="*">
-          <h1>404 not found</h1>
-        </Route>
-      </Switch>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <DrugPage
+              drugs={drugs}
+              setDrugs={setDrugs}
+              onAddNewDrug={handleAddNewDrug}
+              onDeleteDrug={handleDeleteDrug}
+            />
+          </Route>
+          <Route exact path="/search">
+            <Search />
+          </Route>
+          <Route exact path="/drugs/new">
+            <DrugForm />
+          </Route>
+          <Route path="*">
+            <h1>404 not found</h1>
+          </Route>
+        </Switch>
+      </div>
     </main>
   );
 }
