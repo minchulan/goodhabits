@@ -45,7 +45,8 @@ const DrugForm = ({ onAddNewDrug }) => {
     <div className="drug-form">
       <h2>New Rx Drug</h2>
       <form onSubmit={handleSubmit}>
-        <input required
+        <input
+          required
           onChange={handleChange}
           value={formData.name}
           type="text"
@@ -53,7 +54,8 @@ const DrugForm = ({ onAddNewDrug }) => {
           placeholder="Generic Name"
           className="input-text"
         />
-        <input required
+        <input
+          required
           onChange={handleChange}
           value={formData.brand}
           type="text"
@@ -61,7 +63,8 @@ const DrugForm = ({ onAddNewDrug }) => {
           placeholder="Brand Name"
           className="input-text"
         />
-        <input required
+        <input
+          required
           onChange={handleChange}
           value={formData.strength}
           type="number"
@@ -70,7 +73,8 @@ const DrugForm = ({ onAddNewDrug }) => {
           placeholder="Strength"
           className="input-text"
         />
-        <input required
+        <input
+          required
           onChange={handleChange}
           value={formData.image}
           type="text"
@@ -78,14 +82,11 @@ const DrugForm = ({ onAddNewDrug }) => {
           placeholder="Image URL"
           className="input-text"
         />
-        <input required
-          onChange={handleChange}
-          value={formData.form}
-          type="text"
-          name="form"
-          placeholder="Form"
-          className="input-text"
-        />
+        <select required value={formData.form} onChange={handleChange}>
+          <option disabled value="none">Choose a drug form</option>
+          <option value="tablet">tablet</option>
+          <option value="capsule">capsule</option>
+        </select>
         <button type="submit">Add</button>
       </form>
     </div>

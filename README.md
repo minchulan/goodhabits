@@ -33,6 +33,8 @@ As a user:
 2. Add a new drug to the page by submitting the form.
 3. Delete a drug by clicking on the delete button, or trashcan icon. Change is persisted in the backend.
 4. Search for drugs by Rx drug name and see a filtered list of drugs on the page.
+
+## Advanced Deliverable 
 5.  "Favorite" and "unfavorite" a listing on the frontend by clicking the star icon. Rx drugs clicked as "favorite" renders using a Route that matches the path /favorites .
 
 
