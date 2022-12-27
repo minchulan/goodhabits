@@ -1,6 +1,6 @@
 ## Good Habits
 
-Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication. For my phase 2 project I hoped to build something that pertained to my career as a pharmacist. After several low-fidelity wireframe designs and much consideration, I came to the realization that a 'prescription-drug-finder-app' would be the most attainable for me as a student developer. I hope to build upon this project with additional integrations and functionality that I could use in a pharmacy setting in the future.
+Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication. For my phase 2 project, I wanted to build something that was relevant to my career as a pharmacist. After several low-fidelity wireframe drafts and much consideration, I came to the realization that a 'prescription-drug-finder-app' would be the most attainable for me as a student developer. I hope to build upon this project with additional integrations and functionality that may could useful in a pharmacy setting.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
