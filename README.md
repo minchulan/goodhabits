@@ -42,7 +42,7 @@ As a user:
 
 ## Example
 
-Project is deployed via Netlify. Click on the 'Good Habits Rx' button above in the Links section or head to: https://goodhabitsrx.netlify.app/
+This project is deployed via Netlify. In the Links section, click on the 'Good Habits Rx' button or go straight to: https://goodhabitsrx.netlify.app/
 
 The screenshots below demonstrate the working functionality of the app.
 ![Example](https://user-images.githubusercontent.com/108310591/208517130-e1370830-c764-4a11-abae-0bef694830a8.png)
