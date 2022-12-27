@@ -12,7 +12,7 @@ Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS 
 
 ## Lessons Learned
 
-In Phase 2, I learned the fundamentals of the ReactJS language, specifically Components and Props, State & Events, Information Flow, React Forms, Component Lifecycle & React Router. I met the learning objectives which were to design a React component hierarchy based on a wireframe, create components that interact with an API, and incorporate client-side routing into a single-page application in React.
+In Phase 2, I learned the fundamentals of the ReactJS language: Components and Props, State & Events, Information Flow, React Forms, Component Lifecycle & React Router. Learning objects were to design a React component hierarchy based on a wireframe, create components that interact with an API, and incorporate client-side routing into a single-page application in React.
 
 
 ## Installation
@@ -23,6 +23,7 @@ To install, just fork and clone this repository. Once you cloned it in your term
 
 - Additional browser support
 - Add more integrations
+- HIPAA secure
 
 
 ## Core Deliverables
