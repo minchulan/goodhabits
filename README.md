@@ -1,6 +1,6 @@
 ## Good Habits
 
-Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication. For my phase 2 project, I wanted to build something that was relevant to my career as a pharmacist. After several low-fidelity wireframe drafts and much consideration, I concluded that building a 'prescription-drug-finder-app' is the most attainable starting point as a student developer. I hope to build upon this project with additional integrations and functionality that is useful for other pharmacists alike.
+Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
@@ -10,11 +10,6 @@ Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS 
 [![my_portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/minchulan)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minchulan/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/itsminchul)
-
-## Lessons Learned
-
-In Phase 2, I learned the fundamentals of the ReactJS language: Components and Props, State & Events, Information Flow, React Forms, Component Lifecycle & React Router. Learning objects were to design a React component hierarchy based on a wireframe, create components that interact with an API, and incorporate client-side routing into a single-page application in React.
-
 
 ## Installation
 
@@ -35,9 +30,6 @@ As a user:
 2. Add a new drug to the page by submitting the form.
 3. Delete a drug by clicking on the delete button, or trashcan icon. Change is persisted in the backend.
 4. Search for drugs by Rx drug name and see a filtered list of drugs on the page.
-
-## Advanced Deliverable 
-5.  "Favorite" and "unfavorite" a listing on the frontend by clicking the star icon. Rx drugs clicked as "favorite" renders using a Route that matches the path /favorites .
 
 
 ## Example
