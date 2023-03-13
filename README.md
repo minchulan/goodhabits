@@ -1,6 +1,6 @@
 ## Good Habits
 
-Welcome to Good Habits, a Rx Drug Finder app. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication.
+Welcome to Good Habits, a Rx Drug Resource web application. Good Habits is built with ReactJS and leverages dynamic interactivity and asynchronous code via server communication.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
